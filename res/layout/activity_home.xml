@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p_background"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".Activities.HomeActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonmenuPizza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E86238"
+                    android:text="MENU"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@android:drawable/ic_menu_view" />
+
+                <Button
+                    android:id="@+id/buttonFav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E86238"
+                    android:text="FAV"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/baseline_favorite_24" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonSpecial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E86238"
+                    android:text="Specials!!"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/baseline_star_24" />
+
+                <Button
+                    android:id="@+id/buttonProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E86238"
+                    android:text="PROFILE"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/baseline_account_circle_24" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttoYourOrders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E86238"
+                    android:text="UR ORDERS"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@android:drawable/ic_menu_myplaces" />
+
+
+                <Button
+                    android:id="@+id/buttonContactUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E86238"
+                    android:text="Contacts"
+                    android:textSize="28sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/baseline_call_24" />
+
+            </LinearLayout>
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView"
+                android:name="com.example.project_1200308_1201738.Fragments.HomeUsetFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

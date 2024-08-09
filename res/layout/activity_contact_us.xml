@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activities.ContactUsActivity">
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Us"
+        android:backgroundTint="#F4511E"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/findUsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Us"
+        android:backgroundTint="#F4511E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Us"
+        android:backgroundTint="#F4511E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

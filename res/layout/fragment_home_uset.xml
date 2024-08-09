@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p_background"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeUsetFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/p" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HISTORYT"
+            android:textColor="#000000"
+            android:textSize="34dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Founded in 2021, our restaurant began as a small, family-owned pizzeria with a big dream: to create the best pizza in town. With traditional recipes and a passion for quality, we quickly became a local favorite. Over the years, our commitment to using fresh ingredients and perfecting our craft has allowed us to grow and serve even more of our beloved community. Today, we are proud to continue this tradition, bringing the same dedication and love for pizza to every order. Join us as we celebrate our rich history and look forward to many more delicious."
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</FrameLayout>
